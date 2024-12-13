@@ -7,7 +7,7 @@ from datetime import datetime
 from colorama import Fore, Style, init
 import socket
 from requests.exceptions import RequestException
-import secure_handler import APIKeyProtector
+from secure_handler import APIKeyProtector
 
 
 # Initialize colorama
